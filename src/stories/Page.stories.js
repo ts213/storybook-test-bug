@@ -18,6 +18,6 @@ export const Test = {
     template: '<my-page />',
   }),
   play: async ({ canvasElement }) => {
-    await new Promise((resolve, reject) => setTimeout(resolve, 1100));
+    // await new Promise((resolve, reject) => setTimeout(resolve, 1100));
   },
 };
